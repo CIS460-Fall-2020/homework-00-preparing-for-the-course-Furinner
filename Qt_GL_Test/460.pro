@@ -1,4 +1,4 @@
-QT += core widgets
+QT += core widgets openglwidgets
 
 TARGET = 277
 TEMPLATE = app
@@ -6,7 +6,6 @@ CONFIG += console
 CONFIG += c++11
 win32{
     LIBS += -lopengl32
-    LIBS += -lglut32
     LIBS += -lglu32
 }
 CONFIG += warn_on
